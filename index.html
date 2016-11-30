@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>RPI Remote</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/interface.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/interface.js"></script>
+</head>
+<body>
+    <div data-role="page">
+
+        <div class="remote-interface">
+
+            <div class="ui-grid-b">
+                <div class="ui-btn ui-block-a">
+                    <i class="fa fa-undo fa-3x height-fix" aria-hidden="true" data-cmd="Input.Back"></i>
+                </div>
+                <div class="ui-btn ui-block-b">
+                    <i class="fa fa-arrow-up fa-5x" aria-hidden="true" data-cmd="Input.Up"></i>
+                </div>
+                <div class="ui-btn ui-block-c"></div>
+            </div>
+
+            <div class="ui-grid-b">
+                <div class="ui-btn ui-block-a">
+                    <i class="fa fa-arrow-left fa-5x" aria-hidden="true" data-cmd="Input.Left"></i>
+                </div>
+                <div class="ui-btn ui-block-b">
+                    <i class="fa fa-check fa-5x" aria-hidden="true" data-cmd="Input.Select"></i>
+                </div>
+                <div class="ui-btn ui-block-c">
+                    <i class="fa fa-arrow-right fa-5x" aria-hidden="true" data-cmd="Input.Right"></i>
+                </div>
+            </div>
+
+            <div class="ui-grid-b">
+                <div class="ui-btn ui-block-a"></div>
+                <div class="ui-btn ui-block-b">
+                    <i class="fa fa-arrow-down fa-5x" aria-hidden="true" data-cmd="Input.Down"></i>
+                </div>
+                <div class="ui-btn ui-block-c"></div>
+            </div>
+
+            <div class="ui-grid-b">
+                <div class="ui-btn ui-block-a">
+                    <i class="fa fa-fast-backward fa-3x height-fix" aria-hidden="true" data-cmd="Player.Rewind"></i>
+                </div>
+                <div class="ui-btn ui-block-b">
+                    <i class="fa fa-play fa-3x height-fix" aria-hidden="true" data-cmd="Player.PlayPause"></i>
+                    <i class="fa fa-pause fa-3x height-fix" aria-hidden="true" data-cmd="Player.PlayPause"></i>
+                </div>
+                <div class="ui-btn ui-block-c">
+                    <i class="fa fa-fast-forward fa-3x height-fix" aria-hidden="true" data-cmd="Player.Forward"></i>
+                </div>
+            </div>
+
+        </div>
+ 
+        <div data-role="footer">
+            <h4></h4>
+        </div>
+ 
+    </div>
+</body>
+</html>

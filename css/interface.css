@@ -1,0 +1,20 @@
+.ui-block-a,
+.ui-block-b,
+.ui-block-c {
+    padding: 1em;
+    text-align: center;
+}
+
+.ui-btn:active > i.fa {
+    position: relative;
+    top: 8px;
+} 
+
+.remote-interface {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.height-fix {
+    line-height: 80px;
+}
